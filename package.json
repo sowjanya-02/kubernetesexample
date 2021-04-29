@@ -1,0 +1,18 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "flask api demo app for running a cloud native Tekton Pipeline.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sowjanya-02/kubernetesexample"
+  },
+  "main": "app.py",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "flask"
+  }
+}
