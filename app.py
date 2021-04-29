@@ -8,4 +8,4 @@ def home():
    return 'welcome to conn! store microservice is running on {} pod :)'.format(hostname)
 
 if __name__ == "__main__":
-      app.run(host="0.0.0.0", port=9876)
+      app.run(host="0.0.0.0", port=8000)
