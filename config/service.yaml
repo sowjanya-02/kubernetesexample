@@ -9,8 +9,8 @@ spec:
   type: LoadBalancer
   ports:
     - name: http
-      port: 3000
-      targetPort: 3000
+      port: 8000
+      targetPort: 8000
       protocol: TCP
   selector:
     app: myapp
