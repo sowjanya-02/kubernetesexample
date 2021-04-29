@@ -4,7 +4,7 @@ import socket
 app = Flask(__name__)
 @app.route('/')
 def home():
-   hostname = socket.gethostname(
+   hostname = socket.gethostname()
    return 'welcome to conn! store microservice is running on {} pod :)'.format(hostname)
 
 if __name__ == "__main__":
